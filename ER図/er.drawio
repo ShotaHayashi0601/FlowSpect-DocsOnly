@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="vuXsbcNfTUwcmZUvrMBM" name="ページ1">
-        <mxGraphModel dx="1598" dy="2107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1418" dy="2107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -103,10 +103,10 @@
                         <mxPoint x="-7" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" value="&lt;br&gt;チェックシート登録時の選択状態で複数生成&lt;br&gt;後から追加も可能とする" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#b85450;fillColor=#f8cecc;align=left;" parent="1" vertex="1">
-                    <mxGeometry x="55" y="637" width="270" height="100" as="geometry"/>
+                <mxCell id="66" value="基本情報を保存するアプリ。各シートアプリのレコードの参照を持つ。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#b85450;fillColor=#f8cecc;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="840" width="270" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.498;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="66" target="52" edge="1">
+                <mxCell id="71" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.512;entryY=1.274;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="66" target="96" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="320" y="258" as="sourcePoint"/>
                         <mxPoint x="370" y="208" as="targetPoint"/>

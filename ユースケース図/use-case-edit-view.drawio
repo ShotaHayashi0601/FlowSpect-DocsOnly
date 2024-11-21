@@ -1,14 +1,14 @@
 <mxfile host="65bd71144e">
     <diagram id="fLh_ZRpRpivqrNP2prxu" name="ページ1">
-        <mxGraphModel dx="869" dy="1638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="232" dy="1638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="51" value="工程内チェックシートアプリケーション" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="20" width="600" height="710" as="geometry"/>
+                </mxCell>
                 <mxCell id="84" value="開発するアプリの対象外" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;strokeWidth=4;dashed=1;align=right;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="230" y="524.5" width="460" height="175.5" as="geometry"/>
-                </mxCell>
-                <mxCell id="51" value="工程内チェックシートアプリケーション" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="180" y="10" width="600" height="710" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="検査担当者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="80" y="310" width="30" height="60" as="geometry"/>
@@ -167,6 +167,15 @@
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="950" y="525" as="sourcePoint"/>
                         <mxPoint x="420.71067811865464" y="611.7157287525379" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="106" value="入力可能条件（前工程が終わっていないと入力不可等は、マスタ及びシート単位で設定できるようにする）。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="-139" width="290" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="46" target="106" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="640" y="94" as="sourcePoint"/>
+                        <mxPoint x="640" y="10" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
